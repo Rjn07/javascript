@@ -21,3 +21,8 @@ newDate.toLocaleString('default',{
 })
 
 console.log(newDate.toLocaleString())
+
+let myDate =new Date(2023,0,23);
+console.log(myDate.toString())
+console.log(myDate.toLocaleString())
+console.log(myDate.toDateString())
